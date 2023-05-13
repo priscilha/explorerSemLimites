@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Mulish', sans-serif;
+    background: #F9F4FB;
+}
+
+header img{
+    width: 36.4rem;
+    height: 37.0rem;
+    
+
+}
+
