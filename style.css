@@ -1,7 +1,10 @@
+/* Global styles*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
 }
 
 :root {
@@ -23,11 +26,27 @@ main {
     text-align: center;
 }
 
-.astronaut img {
-    width: min(36.4rem, 90%);
+img {
+    width: 100%;
+    display: block;
+}
 
+p {
+    
+    font-weight: 600;
+    color: #312D64;
+    
+    margin-top: 1.9rem;
 
 }
+
+/* Hero Section */
+
+#hero {
+    padding: 0 3.4rem 9.3rem 3.2rem ;
+}
+
+
 
 h1,
 h2 {
@@ -35,14 +54,35 @@ h2 {
     font-weight: 900;
 }
 
-p {
-    font-weight: 600;
-    color: #312D64;
-    width: min(26.5rem, 90%);
-    margin-top: 1.9rem;
+h1 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    margin: 1.7rem auto 0.5rem;
+}
+
+#hero .hero-text p {
+    font-size: 2rem;
+    margin-bottom: 3.5rem;
+}
+
+#hero .hero-text .button-down {
+    width: 5.8rem;
+    height: 10.5rem;
+    display: flex;
+    border: 4px solid #B52184;
+    border-radius: 76rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
 
 }
 
+#hero .hero-text .button-down img {
+    width: 3rem;
+}
+
+/* Section cards */
 .sun {
     width: min(35.2rem, 90%);
     background: #FFFFFF;
