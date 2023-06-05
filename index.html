@@ -31,7 +31,7 @@
 
         </section>
 
-        <section class="suns">
+        <section id="suns">
             <div class="sun">
                 <img src="./img/ballYellow.png" alt="">
                 <h2>Não pare nunca</h2>
@@ -60,28 +60,31 @@
         </section>
     </main>
 
-
-    <form>
-        <h2>Entre em contato</h2>
-        <fieldset>
-            <div>
-                <label for="name">Seu nome</label>
-                <input type="text" id="name">
-            </div>
+    <section id="contact">
 
 
-            <div>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" />
-            </div>
-            <div>
-                <label for="info">Digite sua mensagem aqui...</label>
-                <textarea name="info" id="info"></textarea>
 
-            </div>
-            <button class="button">Enviar Mensagem</button>
-        </fieldset>
-    </form>
+        <form>
+            <h2>Entre em contato</h2>
+            <fieldset>
+                <div class="input-wrapper">
+                    <input type="text" id="name" placeholder="Seu nome">
+                </div>
+
+
+                <div class="input-wrapper">
+                   
+                    <input type="email" id="email" placeholder="E-mail"/>
+                </div>
+                <div class="input-wrapper">
+                    
+                    <textarea placeholder="Digite sua mensagem aqui..."></textarea>
+
+                </div>
+                <button class="button" type="submit">Enviar Mensagem</button>
+            </fieldset>
+        </form>
+    </section>
 
 
     <footer>
